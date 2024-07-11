@@ -1,0 +1,39 @@
+{
+  "name": "tidy-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "ajv": "^8.0.0",
+    "ajv-keywords": "^5.0.0",
+    "classnames": "^2.5.1",
+    "lodash": "^4.17.15",
+    "node-sass": "^9.0.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "^5.0.1",
+    "webpack": "^5.92.1"
+  },
+  "scripts": {
+    "start": "react-scripts start --openssl-legacy-provider",
+    "build": "react-scripts build --openssl-legacy-provider",
+    "test": "react-scripts test --openssl-legacy-provider",
+    "eject": "react-scripts eject --openssl-legacy-provider"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
